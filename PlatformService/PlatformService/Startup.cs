@@ -13,6 +13,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using PlatformService.Data;
+using PlatformService.Data.Contracts;
+using PlatformService.Data.Impl;
 
 namespace PlatformService
 {
@@ -35,6 +37,8 @@ namespace PlatformService
             });
             services.AddDbContext<AppDbContext>(o
                 => o.UseInMemoryDatabase("TestDb"));
+
+            services.AddScoped<IPlatformRepository, PlatformRepo>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -54,6 +58,8 @@ namespace PlatformService
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
+            
+            PrepDb.PrepPopulation(app);
         }
     }
 }
