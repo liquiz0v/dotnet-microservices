@@ -443,6 +443,7 @@ $RECYCLE.BIN/
 # JetBrains Rider
 .idea/
 *.sln.iml
+PlatformService/.idea/
 
 ##
 ## Visual Studio Code
@@ -453,3 +454,4 @@ $RECYCLE.BIN/
 !.vscode/launch.json
 !.vscode/extensions.json
 PlatformService/PlatformService/obj/Debug
+﻿PlatformService/.idea
