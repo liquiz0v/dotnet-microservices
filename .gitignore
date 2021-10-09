@@ -371,7 +371,6 @@ FodyWeavers.xsd
 
 # globs
 Makefile.in
-*.userprefs
 *.usertasks
 config.make
 config.status
@@ -453,5 +452,5 @@ PlatformService/.idea/
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-PlatformService/PlatformService/obj/Debug
+PlatformService/PlatformService/obj/
 ﻿PlatformService/.idea
