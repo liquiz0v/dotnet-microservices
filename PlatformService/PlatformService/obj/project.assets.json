@@ -6038,19 +6038,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Vladislav\\.nuget\\packages\\": {}
+    "C:\\Users\\vladi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repos\\dotnet-microservices\\PlatformService\\PlatformService\\PlatformService.csproj",
+      "projectUniqueName": "I:\\Repos\\dotnet-microservices\\PlatformService\\PlatformService\\PlatformService.csproj",
       "projectName": "PlatformService",
-      "projectPath": "D:\\Repos\\dotnet-microservices\\PlatformService\\PlatformService\\PlatformService.csproj",
-      "packagesPath": "C:\\Users\\Vladislav\\.nuget\\packages\\",
-      "outputPath": "D:\\Repos\\dotnet-microservices\\PlatformService\\PlatformService\\obj\\",
+      "projectPath": "I:\\Repos\\dotnet-microservices\\PlatformService\\PlatformService\\PlatformService.csproj",
+      "packagesPath": "C:\\Users\\vladi\\.nuget\\packages\\",
+      "outputPath": "I:\\Repos\\dotnet-microservices\\PlatformService\\PlatformService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Vladislav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vladi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6121,7 +6121,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.207\\RuntimeIdentifierGraph.json"
       }
     }
   }
